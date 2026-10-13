@@ -1,0 +1,538 @@
+
+
+                               /* Outros Elementos*/
+img{
+   width: 120px;
+   height: 140px;
+    object-fit:contain ;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+   padding: 10px;
+
+}
+
+.faixa{
+    width: 60%;
+}
+#Graduacao{
+    background-image: url("graduacao.jpg");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.526);
+    color: #ffffff;
+   
+   
+}
+#faixaalinhamento{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+ position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+    color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    list-style: none;
+    text-shadow: 2px 4px 8px #000000fd;
+    margin: 0;
+    margin-top: 0;
+    top: 0;
+    padding: 5px;
+    background-color: #000000;
+
+
+    
+
+}
+a{
+    color: #ffffff;
+    transition: all 0.3s ;
+    font-size: 25px;
+         text-decoration:underline;
+     font-family: 'Oswald';
+    padding: 4px;
+     
+   
+    
+}
+a:hover{
+    color: #d80505;
+ text-decoration: none;
+ cursor:pointer;
+   
+}
+#linha{
+    border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               /*textos e titulos*/
+.introducao{
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #0000002d;
+    font-size: 24px;
+    max-width: 100%;
+    padding: 10px;
+}
+blockquote{
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #0000002d;
+    font-size: 30px;
+    max-width: 100%;
+    padding: 10px;
+}
+ p{
+           
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #0000002d;
+    font-size: 18px;
+   
+    max-width: 140px;
+    padding: 10px;
+ }
+ .saude{
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #00000063;
+    font-size: 18px;
+    border:none;
+    max-width: 100%;
+    
+ }
+
+h1{
+
+    margin-bottom: 12%;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #f6f6f62d;
+    transition: all 0.3s ease-in-out;
+    margin-top: 8%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+}
+.SaudeT{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #0000002d;
+    font-size: 25px;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+   text-shadow: 20px 20px 20px 20px #000000;
+    font-size: 40px;
+    text-align: center;
+   
+    
+    
+}
+#Titulo2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #0000002d;
+    padding: 40px;
+}
+.descricao{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #00000043;
+    font-size: 13px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+.introducao{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    /*divs*/
+
+#SaudeMental , #SaudeFisica{
+  
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    color: #ffffff;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.832), rgba(100, 100, 100, 0.355));
+}
+#menu{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+div{
+    background-color: #0d0d0db5;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#Origem{
+    background-image: url("origem.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.origem1{
+    background-color: #0d0d0d00;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    transition: 0.3s all;
+
+
+}
+.origem1:hover{
+    transform: scale(1.05);
+}
+
+#graduacoes{
+    background-color: #0d0d0db5;
+    margin:0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    gap: 10px;
+   
+}
+.graduacao1{
+    background-color: #ffffff69;
+}
+ .graduacao2 , .graduacao3, .graduacao4{
+background-color:#39383882
+}
+.graduacao5 , .graduacao6 ,.graduacao7{
+    background-color:#cab90069
+}
+ .graduacao8, .graduacao9, .graduacao10{
+    background-color:#cf730252
+}
+ .graduacao11, .graduacao12, .graduacao13{
+    background-color:#1057005c
+}
+ .graduacao14{
+    background-color:#2600d23b
+}
+.graduacao15{
+    background-color:#a200b440
+}
+.graduacao16{
+    background-color:#541d0040
+}
+.regra{
+    background-color: #0d0d0db5;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    color: #ffffff;
+}
+#regras{
+    margin: 0px;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+}
+#Regra{
+    background-image: url("regras.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}          
+#Origem , #SaudeMental , #SaudeFisica , #Graduacao , #regras{
+    margin-bottom: 120px;
+}   
+#Frases{
+    background-image: url(frase.png);
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+}
+.pais{
+    background-image: url(brasil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+}
+.pais1{
+    background-image: url(eua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pais2{
+    background-image: url(EmiradosArabes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pais3{
+    background-image: url(Japao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              /*Blocos maiores*/
+                         
+section{
+    background-color: #0d0d0db5;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    color: #ffffff;
+    background-color: #62020216;
+    border:1px solid rgba(243, 238, 238, 0.532);
+    margin: 20px;
+}
+header{
+   margin:0;
+    color: white;
+    text-shadow: none;
+
+}
+
+body{
+    top: 20px;
+     background-image: url("fundo.jpg");
+    background-color: #000000;
+    background-size: contain;
+    background-position: start;
+    background-repeat: no-repeat;
+    
+    
+}
+
+ main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(450px , 1fr));
+    gap:20px;
+    grid-auto-columns: auto;
+    justify-content: space-between;
+ }
+footer{
+    background-color:  #62020216;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /*media queries*/
+@media (max-width: 768px) {
+    main{
+        grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    }
+    h1{
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 24px;
+       
+    }
+    p{
+        font-size: 14px;
+    }
+    body{
+        background-size: contain;
+        background-image: none;
+    }
+    header{
+        background-image: url(fundo.jpg);
+        background-size: contain ;
+        background-repeat: no-repeat;
+        margin: 0;
+       padding: 0;
+
+    }
+    ul{
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    P{
+        font-size: 14px;
+        max-width: 100%;
+    
+    }
+    .origem1{
+        font-size: 14px;
+        max-width: 100%;
+        background-color: #a4a3a317;
+    }
+    .saude{
+        font-size: 15px;
+        max-width: 100%;
+        background-color: #3333332d;
+    }
+    #linha{
+        border: 1px solid #ffffff;
+    }
+    .introducao{
+        font-size: 18px;
+        max-width: 100%;
+    }
+    #Origem{
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+#Graduacao{
+    background-position:center;
+    background-attachment: fixed;
+    background-size: contain ;
+}
+#Regra{
+    background-image: url(regrasCelular.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+#SaudeMental , #SaudeFisica{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.751), rgba(128, 128, 128, 0.29));
+}
+a{
+    font-size: 18px;
+}
+#Frases{
+    background-position: center;
+}
+}
